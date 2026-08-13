@@ -6,44 +6,24 @@ import Image from "next/image";
 
 const projects = [
   {
-    title: "HR Analytics Dashboard",
+    title: "HR Analytics Capstone",
     category: "Business Intelligence & Data Visualization",
     date: "Dec 2025",
-    description: "Led business analysis for a workforce analytics initiative, gathering requirements from stakeholders to define KPIs across performance and stress dimensions. Delivered interactive Power BI and R Shiny dashboards tracking resource health metrics for 200+ employees, translating operational data into strategic insights for HR decision-makers.",
+    description: "Defined performance and stress KPIs with stakeholders and delivered dashboards tracking workforce health for 200+ employees. The project focused on building a comprehensive people analytics view using Power BI, R, R Shiny, and SQL to support data-informed HR decisions.",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
     tools: ["Power BI", "R", "R Shiny", "SQL"],
-    metrics: ["200+ Employees Tracked", "KPI Definition", "Strategic HR Insights"],
+    metrics: ["200+ Employees", "KPI Design", "Workforce Health"],
     icon: BarChart
   },
   {
-    title: "Port Authority Trans Hudson (PATH) Analysis",
+    title: "PATH Transit Data System Analysis",
     category: "Data Systems Analysis",
     date: "Apr 2025",
-    description: "Analyzed transit systems data by generating SQL queries to map trends, presenting functional solutions for process improvements. Drafted end-to-end data workflows modeling current infrastructure to optimize commuter traffic scheduling.",
+    description: "Mapped ridership trends with SQL and modeled end-to-end data workflows to optimize commuter scheduling. The analysis focused on improving transit operations by identifying key patterns and documenting process-level data movement across the system.",
     image: "https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=1000&auto=format&fit=crop",
     tools: ["SQL", "Power BI", "Visio"],
-    metrics: ["Traffic Optimization", "Workflow Modeling", "Process Improvement"],
+    metrics: ["Ridership Analysis", "Workflow Modeling", "Scheduling Optimization"],
     icon: Map
-  },
-  {
-    title: "AI-Driven Customer Churn Prediction",
-    category: "Artificial Intelligence & Predictive Modeling",
-    date: "Aug 2025",
-    description: "Designed and evaluated machine learning models to predict customer churn, achieving 85% accuracy. Collaborated with data science teams to translate model outputs into retention strategies, reducing churn by 12% in Q3.",
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1000&auto=format&fit=crop",
-    tools: ["Python", "Machine Learning", "Tableau", "Jira"],
-    metrics: ["85% Model Accuracy", "12% Churn Reduction", "Predictive Analytics"],
-    icon: Brain
-  },
-  {
-    title: "Supply Chain Optimization Initiative",
-    category: "Process Improvement & Data Analysis",
-    date: "Jan 2026",
-    description: "Conducted gap analysis on global supply chain operations, identifying bottlenecks in inventory management. Developed a dynamic tracking dashboard leading to a 15% reduction in lead times and $2M annual cost savings.",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1000&auto=format&fit=crop",
-    tools: ["Tableau", "Excel", "Agile/Scrum", "Process Mapping"],
-    metrics: ["15% Lead Time Reduction", "$2M Cost Savings", "Gap Analysis"],
-    icon: LineChart
   }
 ];
 

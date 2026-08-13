@@ -34,7 +34,7 @@ export default function HeroSection() {
           </h1>
           
           <p className="text-lg md:text-xl text-[var(--color-muted)] max-w-lg leading-relaxed font-medium">
-            Business Analyst with 4+ years of experience translating complex business requirements into actionable solutions through analytics, stakeholder collaboration, Agile delivery, and data-driven insights.
+            Data and Business Analyst with 4+ years of experience turning business questions into measurable KPIs, predictive models, and executive-ready dashboards.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 mt-4">
@@ -46,7 +46,7 @@ export default function HeroSection() {
               <ArrowRight size={20} />
             </a>
             <a
-              href="/resume.pdf"
+              href="/Mythri_Potluri_BA_BI.docx"
               className="flex items-center gap-2 bg-transparent text-[var(--color-foreground)] border-2 border-[var(--color-foreground)]/10 px-8 py-4 rounded-full hover:bg-[var(--color-foreground)]/5 transition-all font-semibold text-lg"
             >
               <Download size={20} />
