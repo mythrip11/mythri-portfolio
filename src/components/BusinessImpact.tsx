@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { useEffect, useState, useRef } from "react";
 
 const metrics = [
-  { value: 3, suffix: "+", label: "Years Experience" },
+  { value: 4, suffix: "+", label: "Years Experience" },
   { value: 25, suffix: "%", label: "Revision Reduction" },
   { value: 30, suffix: "%", label: "Time Saved via Automation" },
   { value: 100, suffix: "%", label: "UAT Compliance Sign-off" },

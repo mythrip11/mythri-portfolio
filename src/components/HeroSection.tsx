@@ -34,7 +34,7 @@ export default function HeroSection() {
           </h1>
           
           <p className="text-lg md:text-xl text-[var(--color-muted)] max-w-lg leading-relaxed font-medium">
-            Business Analyst with 3+ years of experience translating complex business requirements into actionable solutions through analytics, stakeholder collaboration, Agile delivery, and data-driven insights.
+            Business Analyst with 4+ years of experience translating complex business requirements into actionable solutions through analytics, stakeholder collaboration, Agile delivery, and data-driven insights.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 mt-4">

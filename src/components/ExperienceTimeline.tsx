@@ -5,6 +5,24 @@ import { Briefcase, TrendingUp, Calendar, CheckCircle } from "lucide-react";
 
 const experiences = [
   {
+    role: "Data Analyst",
+    company: "InfoSoftSol",
+    location: "Birch Run, Michigan, USA",
+    duration: "May 2025 – Present",
+    metrics: [
+      { label: "Reporting Requests Reduced", value: "30%", icon: TrendingUp },
+      { label: "Forecast Accuracy Improved", value: "18%", icon: Calendar },
+      { label: "KPI Visibility", value: "10+", icon: CheckCircle },
+    ],
+    achievements: [
+      "Architected and maintained 10+ self-service dashboards in Power BI, Tableau, and R Shiny, cutting ad-hoc reporting requests by 30% and improving executive KPI visibility.",
+      "Partnered with cross-functional stakeholders to translate business questions into measurable KPIs, consolidating data from 5+ source systems into analysis-ready datasets for weekly leadership reporting.",
+      "Engineered and optimized SQL queries and ETL pipelines, reducing average report refresh time by 40% and enabling faster, data-driven decision-making.",
+      "Built statistical and predictive models in R and Python, including forecasting and classification, improving forecast accuracy by 18% and supporting planning decisions.",
+      "Conducted exploratory data analysis to uncover trends and actionable insights, presenting data stories to both technical and non-technical audiences to align cross-functional teams.",
+    ]
+  },
+  {
     role: "Risk Information Systems Specialist",
     company: "Udbhata Technologies",
     location: "Hyderabad, India",

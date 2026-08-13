@@ -27,10 +27,10 @@ export default function Footer() {
         </div>
 
         <div className="flex items-center gap-6">
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="text-[var(--color-muted)] hover:text-[var(--color-primary)] transition-colors" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/mythripotluri1" target="_blank" rel="noreferrer" className="text-[var(--color-muted)] hover:text-[var(--color-primary)] transition-colors" aria-label="LinkedIn">
             <LinkedinIcon size={20} />
           </a>
-          <a href="mailto:contact@example.com" className="text-[var(--color-muted)] hover:text-[var(--color-primary)] transition-colors" aria-label="Email">
+          <a href="mailto:mythrip11@gmail.com" className="text-[var(--color-muted)] hover:text-[var(--color-primary)] transition-colors" aria-label="Email">
             <Mail size={20} />
           </a>
           <button 

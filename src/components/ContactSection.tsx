@@ -61,7 +61,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <p className="text-sm text-white/70 font-medium">Email</p>
-                  <a href="mailto:mpotl2@unh.newhaven.edu" className="text-lg font-semibold hover:underline">mpotl2@unh.newhaven.edu</a>
+                  <a href="mailto:mythrip11@gmail.com" className="text-lg font-semibold hover:underline">mythrip11@gmail.com</a>
                 </div>
               </div>
 
@@ -71,7 +71,7 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <p className="text-sm text-white/70 font-medium">Location</p>
-                  <p className="text-lg font-semibold">Connecticut, USA</p>
+                  <p className="text-lg font-semibold">Michigan, USA</p>
                 </div>
               </div>
 
