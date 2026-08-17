@@ -4,24 +4,20 @@ import { motion } from "framer-motion";
 
 const skillsCategories = [
   {
-    title: "Business Analysis & Methodologies",
-    skills: ["Requirements Analysis", "BRD", "FRD", "SDLC", "Agile", "Scrum", "Waterfall", "UAT", "Business Process Mapping"]
+    title: "Languages & Analytics",
+    skills: ["SQL", "Python", "R", "Advanced Excel", "Statistical Modeling", "Forecasting", "Classification", "Data Mining", "Exploratory Data Analysis", "A/B Testing", "Data Storytelling"]
   },
   {
-    title: "Data & Analytics",
-    skills: ["Business Systems Analysis", "ETL", "Data Warehousing", "Data Storytelling"]
+    title: "AI & Machine Learning",
+    skills: ["Machine Learning", "Generative AI", "LLMs", "Prompt Engineering", "RAG", "Hugging Face", "Vector Embeddings", "AI Agents & Assistants", "AI Workflow Automation (n8n)", "scikit-learn"]
   },
   {
-    title: "Languages & Programming",
-    skills: ["Python", "R", "SQL"]
+    title: "BI, Data & Cloud",
+    skills: ["Power BI", "Tableau", "R Shiny", "KPI Design", "ETL", "Data Warehousing", "Data Modeling", "Data Governance", "SQL Server", "MySQL", "MongoDB", "AWS", "Azure", "GCP"]
   },
   {
-    title: "Tools & Frameworks",
-    skills: ["Jira", "Visio", "Power BI", "Tableau", "Excel (Advanced)", "R Shiny", "Confluence"]
-  },
-  {
-    title: "Databases & Cloud",
-    skills: ["Microsoft SQL Server", "MySQL", "NoSQL", "MongoDB", "AWS", "Google Cloud (GCP)", "Microsoft Azure"]
+    title: "Business Analysis & Tools",
+    skills: ["Requirements Analysis", "BRD", "FRD", "User Stories", "Process Mapping", "Gap Analysis", "UAT", "SDLC", "Agile", "Scrum", "Jira", "Confluence", "Visio"]
   }
 ];
 

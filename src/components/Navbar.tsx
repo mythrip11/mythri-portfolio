@@ -67,7 +67,7 @@ export default function Navbar() {
           )}
 
           <a
-            href="/Mythri_Potluri_BA_BI.docx"
+            href="/Mythri_Potluri_BA_AI.docx"
             className="flex items-center gap-2 bg-[var(--color-primary)] text-white px-5 py-2.5 rounded-full hover:bg-[var(--color-secondary)] transition-all shadow-lg hover:shadow-xl text-sm font-semibold"
           >
             <Download size={16} />

@@ -88,7 +88,7 @@ export default function ContactSection() {
 
             <div className="mt-8 relative z-10">
               <a
-                href="/Mythri_Potluri_BA_BI.docx"
+                href="/Mythri_Potluri_BA_AI.docx"
                 className="inline-flex items-center gap-2 bg-white text-[var(--color-primary)] px-8 py-4 rounded-full hover:bg-gray-100 transition-all font-bold text-lg shadow-lg w-full justify-center"
               >
                 <Download size={20} />

@@ -21,9 +21,11 @@ const education = [
 ];
 
 const certifications = [
-  "Business Analysis: Business Analytics using SQL and Python (2025)",
-  "Data Visualization: Business Analytics using Power BI and Tableau (2024)",
-  "Productivity: MS Office Specialist (Advanced Excel & PowerPoint) (2023)"
+  "Generative AI — Outskill (2026)",
+  "AI & ML (2026)",
+  "AI Fluency: Framework & Foundations - Anthropic Academy (2026)",
+  "Business Analytics using SQL & Python (2025)",
+  "Power BI & Tableau (2024)"
 ];
 
 export default function EducationCertifications() {
