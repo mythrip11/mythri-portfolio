@@ -78,9 +78,9 @@ export default function ExperienceTimeline() {
           </p>
         </motion.div>
 
-        <div className="relative max-w-4xl mx-auto">
+        <div className="relative max-w-5xl mx-auto">
           {/* Vertical Line */}
-          <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-[var(--color-primary)] to-[var(--color-accent)] transform md:-translate-x-1/2 rounded-full opacity-30"></div>
+          <div className="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[var(--color-primary)] to-[var(--color-accent)] rounded-full opacity-30"></div>
 
           <div className="space-y-16 relative">
             {experiences.map((exp, index) => (
@@ -90,23 +90,17 @@ export default function ExperienceTimeline() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 0.6, delay: index * 0.2 }}
-                className={`flex flex-col md:flex-row items-center justify-between w-full ${
-                  index % 2 === 0 ? "md:flex-row-reverse" : ""
-                }`}
+                className="flex w-full"
               >
                 {/* Timeline Dot */}
-                <div className="absolute left-[-11px] md:left-1/2 w-6 h-6 rounded-full bg-background border-4 border-[var(--color-primary)] transform md:-translate-x-1/2 shadow-[0_0_15px_var(--color-primary)] z-10 flex items-center justify-center">
+                <div className="absolute left-[-11px] w-6 h-6 rounded-full bg-background border-4 border-[var(--color-primary)] shadow-[0_0_15px_var(--color-primary)] z-10 flex items-center justify-center">
                   <div className="w-2 h-2 bg-[var(--color-accent)] rounded-full"></div>
                 </div>
 
                 {/* Content Card */}
-                <div className="w-full md:w-[45%] pl-8 md:pl-0">
-                  <div className={`p-8 rounded-3xl glass border border-white/10 hover:border-[var(--color-primary)]/50 transition-all duration-300 shadow-xl bg-background/80 ${
-                    index % 2 === 0 ? "md:text-left" : "md:text-right"
-                  }`}>
-                    <div className={`flex items-center gap-2 mb-2 text-[var(--color-primary)] ${
-                      index % 2 === 0 ? "justify-start" : "justify-start md:justify-end"
-                    }`}>
+                <div className="w-full pl-8">
+                  <div className="p-8 rounded-3xl glass border border-white/10 hover:border-[var(--color-primary)]/50 transition-all duration-300 shadow-xl bg-background/80">
+                    <div className="flex items-center gap-2 mb-2 text-[var(--color-primary)]">
                       <Briefcase size={20} />
                       <span className="font-bold text-sm tracking-wider uppercase">{exp.duration}</span>
                     </div>

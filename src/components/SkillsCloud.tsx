@@ -47,7 +47,7 @@ export default function SkillsCloud() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: idx * 0.1 }}
-              className={`p-8 rounded-3xl glass border border-black/5 dark:border-white/10 hover:border-[var(--color-primary)]/30 transition-colors shadow-lg ${idx === skillsCategories.length - 1 ? 'lg:col-span-2' : ''}`}
+              className="p-8 rounded-3xl glass border border-black/5 dark:border-white/10 hover:border-[var(--color-primary)]/30 transition-colors shadow-lg"
             >
               <h3 className="text-xl font-bold mb-6 text-[var(--color-primary)]">{category.title}</h3>
               <div className="flex flex-wrap gap-3">
