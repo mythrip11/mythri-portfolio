@@ -9,10 +9,10 @@ const projects = [
     title: "HR Analytics Capstone",
     category: "Business Intelligence & Data Visualization",
     date: "Dec 2025",
-    description: "Defined performance and stress KPIs with stakeholders and delivered dashboards tracking workforce health for 200+ employees. The project focused on building a comprehensive people analytics view using Power BI, R, R Shiny, and SQL to support data-informed HR decisions.",
+    description: "Designed and built an interactive Tableau dashboard analyzing workforce trends, salary distribution, and performance metrics across 8,950+ employees. Implemented automated data pipeline with Python and integrated multi-dimensional filtering for actionable HR insights.",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
-    tools: ["Power BI", "R", "R Shiny", "SQL"],
-    metrics: ["200+ Employees", "KPI Design", "Workforce Health"],
+    tools: ["Tableau", "Python", "Pandas", "SQL"],
+    metrics: ["8,950+ Employees", "Multi-Dimensional Analysis", "Automated Data Pipeline"],
     href: "https://github.com/mythrip11/HR-Analytics-",
     icon: BarChart
   },
