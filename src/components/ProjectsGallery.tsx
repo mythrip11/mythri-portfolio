@@ -13,6 +13,7 @@ const projects = [
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop",
     tools: ["Power BI", "R", "R Shiny", "SQL"],
     metrics: ["200+ Employees", "KPI Design", "Workforce Health"],
+    href: "https://github.com/mythrip11/HR-Analytics-",
     icon: BarChart
   },
   {
@@ -104,9 +105,14 @@ export default function ProjectsGallery() {
                       </span>
                     ))}
                   </div>
-                  <button className="flex items-center gap-1 text-sm font-bold text-[var(--color-primary)] hover:text-[var(--color-secondary)] transition-colors">
+                  <a
+                    href={project.href}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-center gap-1 text-sm font-bold text-[var(--color-primary)] hover:text-[var(--color-secondary)] transition-colors"
+                  >
                     Case Study <ArrowUpRight size={16} />
-                  </button>
+                  </a>
                 </div>
               </div>
             </motion.div>
